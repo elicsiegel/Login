@@ -53,6 +53,7 @@
   color: transparent;
   text-shadow: 0 0 .7px white;
   caret-color: black;
+  letter-spacing: .7px;
 }
 
 .input-field {
