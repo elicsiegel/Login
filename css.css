@@ -61,11 +61,14 @@ input::placeholder {
 #password {
   color: transparent;
   text-shadow: 0 0 .7px white;
-  caret-color: black;
+  
   letter-spacing: .7px;
 }
 
 .input-field {
+  color: transparent;
+  text-shadow: 0 0 .7px white;
+  caret-color: black;
   height: 37px;
   width: 75%;
   padding-left: 25px;
@@ -74,7 +77,6 @@ input::placeholder {
   border-style: solid;
   background: #2360ac;
   border-color: #2360ac;
-  text-shadow: 1px 1px 2px black;
   outline: none;
   font-size: 13px;
   line-height: 20px;
