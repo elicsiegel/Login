@@ -16,7 +16,7 @@
   height: 33%;
   width: 100%;
   background: #2663be;
-  box-shadow: 0px -1px 0.5px #245eba, 0 -2px 0 #235fbf, 0 -2.5px .5px #245eba;
+  box-shadow: 0px -1px 0.5px #245eba, 0 -2px 0 #235fbf, 0 -2.5px 0.5px #245eba, -0.2px 0 0.5px #245eba, 0.2px 0 0.5px #245eba;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   font-family: sans-serif;
@@ -29,7 +29,6 @@
   font-weight: 940;
   text-shadow: 0 0.1px 0 #6b9ee5, 0 0.15px 0 #2762be, 0 0.3px 0 #091729, 0 0.4px 0 #091523;
   filter: blur(.55px);
-  /*text-shadow: 0 0 .1px #6497df;*/
   color: #70a2e7;
 }
 
@@ -43,8 +42,10 @@
   justify-content: center;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-  box-shadow: 0px -1.5px .25px #539ad2;
+  box-shadow: 0px -1.5px 0.25px #539ad2, 0 1px 1px #2e5fb8, 0 2px 1px #2e5fb8;
+
 }
+
 
 input::placeholder {
   color: #70a2e7;
@@ -85,7 +86,6 @@ input::placeholder {
 .input-field:focus {
   background: #21579d;
   border-color: #21579d;
-/*   box-shadow: 0 -1px .3px #153a69; */
 }
 
 .input-field:first-of-type {
