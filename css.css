@@ -16,7 +16,7 @@
   height: 33%;
   width: 100%;
   background: #2663be;
-  box-shadow: 0px -1px 0.5px #245eba, 0 -2px 0 #245eba, 0 -2.5px .5px #245eba;
+  box-shadow: 0px -1px 0.5px #245eba, 0 -2px 0 #235fbf, 0 -2.5px .5px #245eba;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   font-family: sans-serif;
@@ -60,8 +60,7 @@ input::placeholder {
 
 #password {
   color: transparent;
-  text-shadow: 0 0 .7px white;
-  
+  text-shadow: 0 0 .7px white; 
   letter-spacing: .7px;
 }
 
@@ -99,20 +98,19 @@ input::placeholder {
 
 #login-button {
   cursor: pointer;
-    box-shadow: 0 1px 3px #245aab, 0 -0.5px 1px #a3bde6, -1px 0 1px #527fc2, 1px 0 1px #527fc2;
-    height: 40px;
-    width: 90px;
-    margin-right: 8.5%;
-    border-radius: 5px;
-    border: 0px;
-    background: linear-gradient(#c5daf6, #89acda);
-    color: #556d8c;
-    font-size: 10px;
-    font-weight: 749;
-    letter-spacing: -.3px;
-    filter: blur(.4px);
+  box-shadow: 0 1px 3px #245aab, 0 -0.5px 1px #a3bde6, -1px 0 1px #527fc2, 1px 0 1px #527fc2;
+  height: 40px;
+  width: 90px;
+  margin-right: 8.5%;
+  border-radius: 5px;
+  border: 0px;
+  background: linear-gradient(#c5daf6, #89acda);
+  color: #556d8c;
+  font-size: 10px;
+  font-weight: 749;
+  letter-spacing: -.3px;
+  filter: blur(.4px);
 }
-
 
 #out {
   display: flex;
